@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/tibo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_c83a38391007899dc9febfc0bb317205620ab239/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-11.0.4_8abb1a3b68046ad15a8906af7119665c2a23e0f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-11.0.4_3aa226140ba51fb9aecb3765bfd8bde51a092d31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5d52089bf4d31537232bb6bcb70cee817d8a374">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-11.0.4_017b80419d1ac50e487914b82bce45a4875aa0f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63b03eaa1aa9b9431c7638841175f9842dcbf274">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-11.0.4_8b9a5ee8e1486d897aa3054e757364bb4335418c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02b91f8efa91dcdf5c555ee24b7f006f02cd0f8b">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-11.0.4_0646f5b5c294aa1b76759fdd7644c7d57c13536b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5e4445f342845a26ffd8d95ee9df47f1be1b061">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c61a4dcb803c6355b93cfa61b4bcad8e912695ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-11.0.4_7c026f8441709f0658fbeb2bc95a091664989010/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-11.0.4_2cbd7995c599408ed48c36615048c4cd4612f267/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-11.0.4_dff142b1bab23a1eb478622cfe1522d6e6bccbbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-11.0.4_1e33494befe6073e0be857c5d2db83a2c9a63080/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-11.0.4_bd99ee878b0f3cc56274b521f1f0f68cbf7d5637/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_14e9cf813d5df60e6f9459d9b16c71257b414e06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c8bf878c09bf0df6ae76eb6c2df38c6a186b38b7">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-11.0.4_370e8b79f271f59e67a6fc091282e7e6d64e19e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="377c5f26ebf67f3fa6ef2f663a58cac7ce647dde">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-11.0.4_a1058a05d0b7b2bac886888525a3a85fecb54167/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-11.0.4_f3547516f35602a87d8f76edf624b4e63930193d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-11.0.4_017dd0ec08aacbb7c584942cc3120ce6cdf4a323/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_9013ae88e56be027578464668b3b116248591391/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-25.2.0_ed7b483bc389c0bc3e8956b2d619f4a92c5ebe3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-11.0.4_361eaa482b28da07ea4a6ba63d191e0c66a639b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c72b1515efbd8ad652e2d63582c8234a979b1e53">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-11.0.4_ef4c04b48e550d1da7425017d7d6db09b5931dff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-11.0.4_08db303e8010359c4bad3df31e08e2e43f20f060/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-11.0.4_4f984ce8f55e4434285c07b724eb35fcd8827e90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_9a7c3aab1dfde22593da40aa6bd9be6048a39cca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_c3c912becf6c71e85ce5212a3549bd7b490b8708/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76ea35b41786082af23db898ca9e0fc07cc71fb9">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-api-phone-11.0.4_808192c9ec2fe6b1274465c995ab45a3712e5ac9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-11.0.4_25013eb918e9863f635a50289cfe88a48e7e7a7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_426a1b615a89c813204b633b17dffe89186c7753/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="057fb316bed8467398333f30926c2d5506e275b2">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-11.0.4_8d2e98618c9b351ef246058bd78473470f50f20e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-11.0.4_e8930947131dfdcc6c135c82e4f3c1dfea64ad78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-11.0.4_3733a2e0ab5d95daaa11786055ea83259bc5469e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfba7cf662f7e3e2cfeb92226c6b84c08e590225">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-11.0.4_0565668e1b37ca2ea45e9bc35a244bc05b5610d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-11.0.4_27732a66f78650e476653639825684ab6fbc2c22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-11.0.4_b734be124f7ff4143ec3190c7567bb9dcb65d5ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-11.0.4_d03ebd24aa87c74d1837c0a11bbcc61870486c71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-11.0.4_a9abcee4459d9b95bebc86ba49cfcbf1ded3a8c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-11.0.4_45c7c50edf736859143d4ac8c4ec088a65fc6e4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-11.0.4_e0804a2b19075afd3eb6c3591451b2c519644614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6706cc7c8c3093560edd55d322218afe7798aa9">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-11.0.4_94645f8459636d8f5088185b7144ed27252d9b6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_b4e280be70e303c403dcaef339a67c4576319b4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-11.0.4_9e6c409292911bd1b73467b6692508b82c04d501/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-11.0.4_1af375a01f9037baf5417295f8d178d6d9e36fb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b12b18c5518021cc71577c83d1290f8ddaa3c98">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-11.0.4_08bf637fab714907006a834335c3559e28a970dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision-common/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b3430725095bd46b785e97bd34240826c27b4db">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-common-11.0.4_e95631bc08dc213d83e79816afb4d1f9c449c552/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="576570f46ff6ccc69a984af9e55ddd58d9549270">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-11.0.4_220fdca1278683b8654dee1c3c92974675125e42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-11.0.4_6f3393c5c69c48bf52981a1e70528bd3b8b90d1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_713404a4b5b36f2b97b0ba0013f782dc9c006701/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffd0ddf5e57b4d60c4a3fbcd38fa20349a0cebd1">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-11.0.4_be8ab4f69a2556a4447f10a52a4f9d693836087d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c175c3009577fad8b433703f5d7ac2dc21d3871f">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-11.0.4_f9eb0a8804ad2ac62ca374c22d5cd686aa318007/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_1756c3766de18034f8b7f64be241a37177169b5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eea424e61a0c85b93a0e477565314a58136abaea">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-11.0.4_2fd05ff5790fd2f5ae10acc8aca2d24491e0621f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-11.0.4_2b475ff061245f8e683e08dfb0118bc90d051bcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f15e20dd7bcde7c688cfda44d0c8320a5c1c24b8">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-11.0.4_f47efc5503ee1bb518840f14f7e098c6ae079799/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/palette-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-25.2.0_9d3258418732659fb473bdce9f5634d5b74539b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-11.0.4_0ebb443d68719adc3533475a6e29560e0f0dd8cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8544f739799dd15db63927073a21312864ab0bfd">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-11.0.4_2073636bbb1ac26e526045099c13795954abdbc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_4c5f0f20d3a6c5d3e1833a61aaf9ae5872f4f793/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-11.0.4_400a1f397bdf8e18bc7f306c324ddc99cb2b10f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-dynamic-links/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dae0d68af4c87df40eca67069861e53b7cefaaa0">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-dynamic-links-11.0.4_0059898d12df88ecc96504feeef2ac7c04f63388/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="56d68d1174b9c1e368017a850b62b12429f39757">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-11.0.4_d6771088719ead5bd0d8a96d24b38940c2479617/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c379c235d7983201bb83edfc3c60bb0dafb5805">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-11.0.4_e15661a11715d7644931689ae4045d0ed3f995ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-11.0.4_271cc1a02775ceb6456f3315815f6888c0ca8a31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-11.0.4_c64e4417aaac63c4df564a99b6d2f438a03e1cdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9dbd8fc38b5fabbcfdd7f359343e19407dce7cc5">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a30ae773a2eed9eb5ec8859034dafa17807f1ace/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/11.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc3036436defd3070337b7191c50a136ebca7f8f">
+        <dex dex="/home/tibo/AndroidStudioProjects/Map/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-11.0.4_24eca4609da10165533948d64d72d38c26680668/classes.dex" />
+    </item>
+
+</items>
