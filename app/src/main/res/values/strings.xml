@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Map</string>
     <string name="title_activity_maps">Map</string>
+    <string-array name="pokemon_choices">7
+        <item>salameche</item>
+        <item>reptincel</item>
+        <item>dracaufeu</item>
+    </string-array>
 </resources>
