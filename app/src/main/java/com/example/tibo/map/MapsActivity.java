@@ -1,6 +1,7 @@
 package com.example.tibo.map;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -13,14 +14,16 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.tibo.map.utilities.MyDBHandler;
-import com.example.tibo.map.utilities.Pokemon;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -34,7 +37,7 @@ import java.util.ArrayList;
 
 public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallback, SensorEventListener,LocationListener {
 
-    private static double DELTA_TEMP = 100.0;
+    private static double DELTA_TEMP = 5.0;
     private static double DELTA_LIGHT = 100.0;
 
 
@@ -72,10 +75,10 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         thermometer = sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
-        /*
+
         if (thermometer == null)
             Toast.makeText(this,"thermometer not available on this device",Toast.LENGTH_LONG).show();
-*/
+
         lightSensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         if (lightSensor == null)
             Toast.makeText(this,"lightSensor not available on this device",Toast.LENGTH_LONG).show();
@@ -97,7 +100,6 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
         Log.i("update","update");
         sensorManager.registerListener(this, thermometer, SensorManager.SENSOR_DELAY_NORMAL);
         sensorManager.registerListener(this, lightSensor, SensorManager.SENSOR_DELAY_NORMAL);
-        //updateMarkers();
     }
 
     @Override
@@ -120,15 +122,32 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
     private View.OnClickListener btnAddListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent i = new Intent(MapsActivity.this, ChoosePokemonActivity.class);
-            startActivity(i);
-            //Log.i("debug","coucou je clic");
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(MapsActivity.this);
+            View mview = getLayoutInflater().inflate(R.layout.choose_pokemon_activity,null);
+            mBuilder.setTitle("choose your pokemon");
+            final Spinner mSpinner = (Spinner) mview.findViewById(R.id.spinner);
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(MapsActivity.this, android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.pokemon_choices));
+            adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+            mSpinner.setAdapter(adapter);
+
+            mBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    mydb.addData(mSpinner.getSelectedItem().toString(),localLatitude,localLongitude,localTemp,localLight);
+                    Log.i("new pokemon",mSpinner.getSelectedItem().toString());
+                    updateMarkers();
+                }
+            });
+
+            mBuilder.setView(mview);
+            AlertDialog dialog = mBuilder.create();
+            dialog.show();
         }
     };
 
     private void initializeMarkers(){
         Cursor c = mydb.getData();
-        Log.i("initialiaze markers putain", String.valueOf(markers.size()));
+
 
         if(c.getCount() == 0){
             return;
@@ -155,7 +174,7 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
 
             }
         }
-
+        Log.i("initialiaze markers putain", String.valueOf(markers.size()));
     }
 
 
@@ -208,11 +227,13 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
 
             if((light < localLight - DELTA_LIGHT) || (light > localLight + DELTA_LIGHT) || (temp < localTemp - DELTA_TEMP) || (temp > localTemp + DELTA_TEMP)){
                 if(mMap!=null){
-                    markers.get(i).setVisible(false);
+                    if(i<markers.size())
+                        markers.get(i).setVisible(false);
                 }
             }
             else {
-                markers.get(i).setVisible(true);
+                if(i<markers.size())
+                    markers.get(i).setVisible(true);
             }
             i++;
         }
@@ -227,7 +248,9 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
 
         if (sensorEvent.sensor.getType() == Sensor.TYPE_AMBIENT_TEMPERATURE) {
             float value = sensorEvent.values[0];
-            //Log.i("coucou la température", String.valueOf(value));
+            Log.i("coucou la température", String.valueOf(value));
+            Log.i("coucou la latitude", String.valueOf(localLatitude));
+
             localTemp = value;
         }
 
@@ -235,7 +258,7 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
             float value = sensorEvent.values[0];
             //Log.i("coucou la lumière", String.valueOf(value));
             localLight = value;
-            //changeMarkersVisibility();
+            changeMarkersVisibility();
         }
 
     }
@@ -247,6 +270,9 @@ public class MapsActivity extends AppCompatActivity implements  OnMapReadyCallba
 
     @Override
     public void onLocationChanged(Location location) {
+        Toast.makeText(this, String.valueOf(location.getLatitude()), Toast.LENGTH_SHORT).show();
+        localLatitude = location.getLatitude();
+        localLongitude = location.getLongitude();
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, 10);
         mMap.animateCamera(cameraUpdate);

@@ -40,9 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChoosePokemonActivity"
-            android:theme="@style/AppTheme.Pop">
-        </activity>
     </application>
 
 </manifest>
